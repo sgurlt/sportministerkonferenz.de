@@ -1,0 +1,577 @@
+.front .main-content {
+	display: none;
+}
+.ie8 .container#content {
+
+}
+/** Node spezifisch **/
+
+#node-54 .field-collection-container ul.action-links-field-collection-add {
+	display: none;
+}
+
+/** Aktuelles **/
+
+.aktuelles_bild img {
+	padding-bottom: 10px;
+}
+
+.field-name-field-bild .colorbox {
+	background-image: url("/sites/all/themes/finesse/images/search.png");
+	height: 240px;
+}
+.node-aktuelles .submitted.entry-meta {
+	display: none;
+}
+
+.node-aktuelles .field-name-field-bild  img, .node-type-inhaltsseite .field-name-field-bild img{
+	float: left;
+	padding: 10px;
+	background: #efefef;
+	margin: 0 10px 0 0;
+}
+
+
+/** Print Mail **/
+
+#print-mail-form #edit-txt-to-addrs {
+	width: 404px;
+}
+
+/** Intranet **/
+
+.intranet {
+	position: relative;
+}
+
+.intranet .button {
+	background-color: #7f7f7f;
+}
+
+.intranet .button:hover {
+	background-color: #809CC9;
+}
+
+
+.intranet_kalender {
+	background-image:url("/sites/all/themes/finesse/images/icon-boxes/calendar_sw.png");
+	background-repeat:no-repeat;
+	float: left;
+	padding-right: 50px;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	left: 100px;
+	top: 50px;
+}
+
+.button.intranet_kalender_schrift {
+    left: 35px;
+    position: relative;
+    top: -30px;
+}
+
+.intranet_kalender:hover {
+	background-image:url("/sites/all/themes/finesse/images/icon-boxes/calendar_big.png");
+}
+
+.intranet_downloads {
+    background-image: url("/sites/all/themes/finesse/images/icon-boxes/download_sw.png");
+    background-repeat: no-repeat;
+    float: right;
+    height: 200px;
+    position: relative;
+    right: 100px;
+    top: 90px;
+    width: 200px;
+}
+
+.button.intranet_download_schrift {
+    left: 10px;
+    position: relative;
+    top: -70px;
+}
+
+.intranet_downloads:hover {
+	background-image:url("/sites/all/themes/finesse/images/icon-boxes/download.png");
+}
+
+/** Views **/
+
+.view-beschl-sse-und-pressemitteilungen ul {
+    list-style: disc outside none;
+}
+
+.downloads_date {
+    float: right;
+}
+
+.downloads_titel > h2 {
+    float: left;
+    max-width: 600px;
+}
+
+
+/**  Blöcke **/
+
+.views-slideshow-cycle-main-frame-row {
+	width: 220px !important;
+}
+
+#sidebar ul li{
+    list-style: disc outside none;
+    margin-left: 15px;
+}
+
+#sidebar .views-field-field-datei-1 .content {
+    position: relative;
+    width: 220px;
+    word-break: break-all;
+}
+
+.views-slideshow-controls-text-pause-processed {
+	display: none;
+}
+
+.view-id-slideblocks {
+    position: relative;
+}
+
+.slidecontrols_prev .flex-direction-nav {
+    bottom: -15px;
+    height: 15px;
+    position: absolute;
+    right: 35px;
+    z-index: 20;
+}
+
+.slidecontrols_next .flex-direction-nav {
+    bottom: -15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    z-index: 20;
+}
+
+#block-views-slideblocks-block-1 {
+	padding-top: 15px;
+}
+
+#views_slideshow_controls_text_previous_slideblocks-block_1 .slidecontrols_prev .flex-direction-nav {
+    bottom: -20px;
+}
+
+#views_slideshow_controls_text_next_slideblocks-block_1 .slidecontrols_next .flex-direction-nav {
+    bottom: -20px;
+}
+
+#sidebar .slidecontrols_next ul li , #sidebar .slidecontrols_prev ul li   {
+	margin: 0;
+}
+
+.views-exposed-form .views-exposed-widget {
+    float: left;
+    padding: 0 0 0 0;
+	float: right;
+}
+
+#sidebar #block-views-slideblocks-block ul li, #sidebar #block-views-slideblocks-block-2 ul li {
+    list-style: none outside none;
+    margin-left: 0;
+}
+
+/**  Bl�cke Ende **/
+
+/** Aktuelles View **/
+
+.view_aktuelles_bild {
+    float: left;
+    width: 220px;
+	padding-right: 10px;
+}
+
+.view_aktuelles_titel {
+	float: left;
+}
+
+.view_aktuelles_titel h1 {
+	margin-bottom: 0px;
+	line-height: 1em;
+}
+
+.view_aktuelles_datum {
+	text-align: right;
+}
+
+.view_aktuelles_headline {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+}
+
+.view_aktuelles_titel h2 {
+	margin-bottom: 0;
+}
+
+.view-aktuelles .views-row, .view-beschl-sse-und-pressemitteilungen .views-row {
+	padding: 20px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.view-aktuelles .views-row p, .view-beschl-sse-und-pressemitteilungen .views-row p {
+	margin-bottom: 0;
+}
+
+.view-aktuelles .views-row.views-row-last, .view-beschl-sse-und-pressemitteilungen .views-row-last {
+	border-bottom: none;
+}
+
+.view-aktuelles .views-row.views-row-first {
+	padding: 0 0 20px 0;
+}
+
+.view_aktuelles_weiterlesen a {
+	color: #ffffff;
+}
+
+.view_aktuelles_weiterlesen {
+    float: right;
+	margin-top: 15px;
+}
+
+/** Aktuelles Ende **/
+
+/** Views Ende **/
+
+/** Layout **/
+
+.not-front section#content {
+	padding-bottom: 15px;
+}
+
+.page-front-page section {
+    margin-bottom: 0;
+}
+
+#footer {
+    background-color: #EAEAEA;
+    color: #383838;
+    margin: 0 auto;
+    width: 1020px;
+
+}
+
+.button_startseite {
+    height: 46px;
+    width: 100%;
+}
+
+.front .button {
+    position: relative;
+}
+
+.block_title h3 {
+    border: 1px solid #E5E5E5;
+    box-shadow: 1px 0 rgba(255, 255, 255, 0.75);
+    color: #383838;
+    display: block;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	background: linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+}
+
+.one-half.column-last{
+    max-width: 500px !important;
+	width: 55%;
+}
+
+.file-icon {
+	float: left;
+	padding-right: 5px;
+}
+
+/** Footer **/
+
+#footer {
+    color: #383838;
+	background-color: #EAEAEA;
+}
+
+#footer h2, #footer h3 {
+    color: #383838;
+}
+
+#footer-top a:hover {
+	color: #383838;
+}
+
+#footer-bottom a {
+    color: #809CC9;
+}
+
+#footer-bottom a:hover {
+    color: #383838;
+}
+
+#footer-bottom .one-half {
+	float: right;
+}
+
+/** Logo **/
+
+#wrap {
+    border-top: 5px solid #383838;
+    overflow: hidden;
+    padding-top: 16px;
+}
+
+#header-top {
+    margin-bottom: 15px;
+}
+
+#header .contact-info p {
+    float: none;
+}
+
+#header .contact-info {
+    margin-top: 27px;
+}
+
+.logo img {
+    height: 90px;
+    width: auto;
+}
+
+.hessenmarke {
+	float: left;
+	padding-right: 20px;
+}
+
+.footer_navi {
+	width: 100%;
+}
+
+#footer-bottom .one-half {
+	max-width: none;
+}
+
+.front #main {
+display: none;
+}
+
+/** Layout Ende **/
+
+/** Basic Page **/
+
+.node-page .field-name-field-bild  img, .node-type-inhaltsseite .field-name-field-bild img{
+	float: left;
+	padding: 10px;
+	background: #efefef;
+	margin: 0 10px 0 0;
+}
+
+
+
+/** Basic Page Ende **/
+
+/** SMK Mitglieder **/
+
+.field-name-field-bundesland {
+	font-weight: bold;
+}
+
+.page-node-24 .field-name-field-kontakt .field-item.odd, .page-node-24 .field-name-field-kontakt .field-item.even {
+	width: 340px;
+/**	height: 110px; **/
+}
+
+.page-node-24 .field-name-field-kontakt .field-item.even {
+	float: left;
+	clear: both;
+	padding-right: 5px;
+}
+
+.page-node-24 .field-name-field-kontakt .field-item.odd {
+	float: left;
+	padding-left: 5px;
+}
+
+
+.page-node-24 .field-name-field-kontakt .field-collection-view {
+	margin: 0;
+	height: 110px;
+}
+/** SMK Mitglieder **/
+
+
+/** Termin **/
+
+.node-termin .entry-title{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #E5E5E5 #E5E5E5 #E5E5E5 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    box-shadow: 1px 0 rgba(255, 255, 255, 0.75);
+    color: #383838;
+    display: block;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	background: linear-gradient(top, #ffffff 0%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+    border: 1px solid #E5E5E5;
+}
+
+.node-termin .field-name-field-bild-zur-veranstaltung {
+	float: left;
+	padding: 10px 10px 0 0;
+}
+
+.field-name-field-terminbeschreibung {
+	padding: 10px 0 0 0;
+}
+
+.field-name-field-datum {
+	font-weight: bold;
+}
+
+.calendar-calendar .month-view .full tr td.today, .calendar-calendar .month-view .full tr.odd td.today, .calendar-calendar .month-view .full tr.even td.today {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #383838;
+    border-right: 2px solid #383838;
+}
+.calendar-calendar .month-view .full td.date-box.today {
+    border-color: #383838;
+    border-style: solid;
+    border-width: 2px 2px 0;
+}
+.calendar-calendar .month-view .full tr td.single-day.today {
+    border-bottom: 2px solid #383838;
+}
+.calendar-calendar .month-view .full tr td.multi-day.starts-today {
+    border-left: 2px solid #383838;
+}
+.calendar-calendar .month-view .full tr td.multi-day.ends-today {
+    border-right: 2px solid #383838;
+}
+
+.calendar-calendar .month-view .full td.single-day div.monthview, .calendar-calendar .week-view .full td.single-day div.weekview, .calendar-calendar .day-view .full td.single-day div.dayview {
+    background: none repeat scroll 0 0 #74A5D7;
+    overflow: hidden;
+    padding: 0 3px;
+    width: auto;
+}
+
+.calendar-calendar .week-view .full div.single-day div.weekview, .calendar-calendar .day-view .full div.single-day div.dayview {
+    border: none;
+}
+.calendar-calendar .week-view .full div.single-day div.weekview, .calendar-calendar .day-view .full div.single-day div.dayview {
+    background: none repeat scroll 0 0 #74A5D7;
+    overflow: hidden;
+    padding: 0 3px;
+    width: auto;
+}
+
+
+.multi-day a, .single-day a, .single-day .views-field-field-datum, .multi-day .views-field-field-datum {
+	color: #ffffff;
+}
+
+.single-day .views-field-field-datum span.date-display-start:after, .multi-day .views-field-field-datum span.date-display-start:after, .single-day .views-field-field-datum span.date-display-end:after, .multi-day .views-field-field-datum span.date-display-end:after,
+ .single-day .views-field-field-datum span.date-display-single:after, .multi-day .views-field-field-datum span.date-display-single:after{
+	content: " Uhr";
+}
+
+.view-id-kalender.view-display-id-block_2 li {
+    background: url("/sites/all/themes/finesse/images/icon-boxes/calendar.png") no-repeat scroll left 0.333em transparent;
+	padding-left: 21px !important;
+}
+
+.view-display-id-block_2 .item-list ul li {
+	margin: 0;
+}
+
+#block-views-kalender-block-2 .feed-icon, #block-views-kalender-block-1 .feed-icon {
+	display: none;
+}
+
+.view .date-nav-wrapper .date-prev {
+    background: none;
+    border-radius: none;
+    float: none;
+    font-size: 12px;
+    left: none;
+    padding: none;
+    position: absolute;
+    right: 90px;
+    text-align: right;
+    top: 0;
+    width: auto;
+    z-index: 1;
+}
+
+.view .date-nav-wrapper .date-next {
+    background: none;
+    border-radius: none;
+    float: none;
+    font-size: 12px;
+    padding: none;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: auto;
+    z-index: 1;
+}
+
+.view .date-nav-wrapper .date-next a {
+	margin-right: 0;
+}
+
+#block-views-kalender-block-1 .item-list ul li {
+	margin: 0;
+}
+
+#block-views-kalender-block-1 .view .date-nav-wrapper .date-prev a {
+	margin-left: 0;
+}
+
+/** Print **/
+
+.print_html, .print_html img, .print_mail, .print_mail img {
+	float: left;
+}
+
+.print_html {
+	margin-left: 0;
+}
+
+.node-aktuelles ul.inline li {
+	padding: 0;
+}
+
+.node-aktuelles .entry-body {
+	padding-bottom: 10px;
+}
+
+/** Sportminister Referenten **/
+
+.entity-field-collection-item.field-collection-item-field-kontakt.clearfix.Hessen {
+    font-weight: bold;
+}

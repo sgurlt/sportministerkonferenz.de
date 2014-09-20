@@ -1,0 +1,105 @@
+name = Finesse  
+description = Finesse theme, developed by <a href="http://tabvn.com/">Tabvn</a>.
+core = 7.x
+
+
+stylesheets[all][] = css/mystyle.css
+
+scripts[] = js/ie.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/modernizr.custom.js
+scripts[] = js/ddlevelsmenu.js
+scripts[] = js/finesse.js
+scripts[] = js/tinynav.min.js
+scripts[] = js/jquery.validate.min.js
+scripts[] = js/jquery.flexslider-min.js
+scripts[] = js/jquery.jcarousel.min.js
+scripts[] = js/jquery.ui.totop.min.js
+scripts[] = js/jquery.fancybox.pack.js
+scripts[] = js/jquery.cycle.all.js
+scripts[] = js/mediaelement-and-player.min.js
+scripts[] = js/jquery.fitvids.js
+scripts[] = js/jquery.quicksand.js
+scripts[] = js/jquery.touchSwipe.min.js
+scripts[] = js/custom.js
+scripts[] = js/myscript.js
+
+regions[header] = Header
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+
+
+regions[content] = Content
+;regions[newsletter] = Newsletter
+;regions[testimonials] = Testimonials
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+features[] = logo
+features[] = slogan
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+
+
+;social links settings
+
+settings[twitter_url] = #
+settings[facebook_url] = #
+settings[google_plus_url] = #
+settings[youtube_url] = #
+settings[skype] = #
+settings[rss_url] = #
+
+settings[home_tagline] = <a href="http://tabvn.com" class="button large">Learn More</a><div class="with-button"><h2>Responsive Business &amp; Portfolio Theme with a Refreshingly Clean Design</h2><p>Carefully handcrafted using the latest technologies, Finesse features a clean design, as well as extended functionality that will come in very handy. Take a tour and discover its features!</p></div><a href="http://tabvn.com" class="button large mobile-button">Learn More</a>
+settings[footer_copyright_message] = Copyright &copy; 2012 Finesse. Created by <a href="http://tabvn.com">Tabvn</a>.
+
+settings[default_portfolio] = 4c
+settings[default_nodes_portfolio] = 12
+
+
+
+;slider settings
+
+settings[default_banners][1][image_path]        = images/slider/slides/living-white-940x350.png
+settings[default_banners][1][image_title]       = Responsive Layout
+settings[default_banners][1][image_description] = You can describe your slides using captions. This is an example of a caption with <a href="#">a link</a>.
+settings[default_banners][1][image_published]   = TRUE
+settings[default_banners][1][image_weight]      = 0
+
+settings[default_banners][2][image_path]        = images/slider/slides/villa-940x350.png
+settings[default_banners][2][image_title]       = HTML5 &amp; CSS3 Code
+settings[default_banners][2][image_description] = You can describe your slides using captions. This is an example of a caption with <a href="#">a link</a>.
+settings[default_banners][2][image_published]   = TRUE
+settings[default_banners][2][image_weight]      = 1
+
+settings[default_banners][3][image_path]        = images/slider/slides/building-940x350.png
+settings[default_banners][3][image_title]       = Clean Design
+settings[default_banners][3][image_description] = You can describe your slides using captions. This is an example of a caption with <a href="#">a link</a>.
+settings[default_banners][3][image_published]   = TRUE
+settings[default_banners][3][image_weight]      = 2
+
+settings[default_banners][4][image_path]        = images/slider/slides/living-brown-940x350.png
+settings[default_banners][4][image_title]       = Touch Enabled
+settings[default_banners][4][image_description] = You can describe your slides using captions. This is an example of a caption with <a href="#">a link</a>.
+settings[default_banners][4][image_published]   = TRUE
+settings[default_banners][4][image_weight]      = 3
+
+
+;skin settings
+
+settings[layout_style] = wide;
+settings[skin_color] = orange
+settings[wide_bg_img] = none
+settings[boxed_bg_img] = grid.png
+settings[boxed_bg_color] = none
